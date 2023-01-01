@@ -610,17 +610,17 @@ final class Instamojo {
      * __clone method is defined as private,
      * so nobody can clone the instance
      */
-    private function __clone() {}
+    public function __clone() {}
 
     /**
      * __wakeup method is defined as private,
      * so nobody can unserialize the instance
      */
-    private function __wakeup() {}
+    public function __wakeup() {}
 
     /**
      * __sleep method is defined as private,
      * so nobody can serialize the instance
      */
-    private function __sleep() {}
+    public function __sleep() {}
 }
